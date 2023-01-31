@@ -1,4 +1,3 @@
-/*setup*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,7 +9,10 @@
   --overlay-color: rgba(168, 147, 243, 0.664);
   --button-color: rgba(116, 72, 218, 0.4);
   --menu-speed: 0.70s;
+  /*
   --custom-font: "Inria Serif", serif;
+  */
+  --custom-font:  'Itim', cursive;
 }
 
 /*main*/
@@ -20,7 +22,7 @@ body {
 }
 
 .container {
-  max-width: 960px;
+  max-width: 850px;
   margin: auto;
   overflow: hidden;
   padding: 0 3rem;
@@ -28,7 +30,7 @@ body {
 
 .showcase {
   background-color: var(--primary-color);
-  color: #ffff;
+  color: #E8E2E2;
   height: 100vh;
   position: relative;
 }
@@ -50,25 +52,26 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 33%;
+  height: 40%;
 }
 
 .showcase h1 {
-  font-size: 3.7rem;
+  font-size: 3.1rem;
   
 }
 
 .showcase p {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 .explore-btn {
+  font-size: 1.4rem;
   display: inline-flex;
   border: none;
   border-radius: 1.3rem;
-  margin: 0.9rem;
-  padding: 0.7rem 1.1rem;
+  margin: 0.8rem;
+  padding: 0.4rem 1.2rem;
   background-color: var(--button-color);
-  color: #ffff;
+  color: #E8E2E2;
   text-decoration: none;
   transition: opacity 0.3s ease-in;
 }
@@ -77,4 +80,16 @@ body {
   opacity: 0.75;
 }
 
+/*Responsive CSS*/
+@media (min-width: 390px) {
+  .showcase h1 p {
+    margin-bottom: 1.25rem;
+    font-size: .25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
 

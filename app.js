@@ -1,8 +1,16 @@
-/*Landing Page Javascript*/
-document.getElementById("explore-btn").onclick = function () {
-    window.location.href = "https://www.youtube.com/watch?v=4OXsxG-GIHI";
-}
+/*server setup*/
+const express = require('express');
+const app = express();
 
-document.getElementById("project-btn").onclick = function () {
-    window.location.href = "https://www.youtube.com/watch?v=4OXsxG-GIHI";
-}
+app.use('/public', express.static('public'));
+app.use(express.static(__dirname));
+
+app.get('/', function(req, res) {
+  res.sendFile(__dirname + '/landing.html');
+});
+
+app.listen(3000, function() {
+  console.log('Server is Running on Port 3000');
+  console.log(__dirname);
+});
+
