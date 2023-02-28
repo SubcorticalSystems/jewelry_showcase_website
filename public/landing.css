@@ -11,8 +11,9 @@
   --menu-speed: 0.70s;
   /*
   --custom-font: "Inria Serif", serif;
+
   */
-  --custom-font:  'Itim', cursive;
+  --custom-font:  'Quicksand', sans-serif;
 }
 
 /*main*/
@@ -52,7 +53,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 40%;
+  height: 25rem;
 }
 
 .showcase h1 {
@@ -61,7 +62,7 @@ body {
 }
 
 .showcase p {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 .explore-btn {
   font-size: 1.4rem;
