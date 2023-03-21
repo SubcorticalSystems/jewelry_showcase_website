@@ -11,7 +11,6 @@ document.getElementById("contact-btn").onclick = function () {
 document.getElementById("about-btn").onclick = function () {
     window.location.href = "about.html";
 }
-document.getElementById("home-btn").onclick = function () {
-    window.alert("HeLLOOW");
-    window.location.href = "landing.html";
-}
+
+
+

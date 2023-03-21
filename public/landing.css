@@ -6,8 +6,8 @@
 
 :root {
   --primary-color: rgba(104, 82, 226, 0.5);
-  --overlay-color: rgba(168, 147, 243, 0.664);
-  --button-color: rgba(116, 72, 218, 0.4);
+  --overlay-color: rgba(105, 82, 187, 0.664);
+  --button-color: rgba(104, 68, 190, 0.4);
   --menu-speed: 0.70s;
   /*
   --custom-font: "Inria Serif", serif;
@@ -74,11 +74,13 @@ body {
   background-color: var(--button-color);
   color: #E8E2E2;
   text-decoration: none;
-  transition: opacity 0.3s ease-in;
+  transition: opacity 0.3s ease-in-out;
+  
 }
 
 .explore-btn:hover {
-  opacity: 0.75;
+  opacity: 0.85;
+  
 }
 
 /*Responsive CSS*/
@@ -93,4 +95,3 @@ body {
     font-size: 50px;
   }
 }
-
