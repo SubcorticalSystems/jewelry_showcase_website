@@ -35,9 +35,9 @@
         <div>
             <ul>
                 <!--<li><a href="#" class="home-btn" id="home-btn">Home</a></li>-->
-                <li><a href="#" class="project-btn" id="project-btn">Projects and Portfolio</a></li>
-                <li><a href="#" class="about-btn" id="about-btn">About the Artist</a></li>
-                <li><a href="#" class="contact-btn" id="contact-btn">Contact Information</a></li>
+                <li><a href="#" id="portfolio-btn">Projects and Portfolio</a></li>
+                <li><a href="#"  id="about-btn">About the Artist</a></li>
+                <li><a href="#"  id="contact-btn">Contact Information</a></li>
             </ul>
             </div>
         </div>
@@ -48,8 +48,7 @@
         <div class="container showcase-inner">
         <h1>Welcome</h1>
         <p>
-            The following website is a compendium of artwork created by Aurora Zhang, a talented metalworker and jewelry designer, 
-            who is looking for internship or job opportunities. Click Explore to go to see Aurora's portfolio consisting of her up-to-date projects.
+            The following website is a compendium of artwork created by Aurora Zhang, a metalworker and jewelry designer. Click Explore to go to see Aurora's portfolio.
             <div>
                 <a href="#" class="explore-btn" id="explore-btn">Explore</a>
             </div>
@@ -60,7 +59,21 @@
     
     </header>
     <script src="app.js"></script>
-    <script src="index.js"></script>
+    <script>
+        document.getElementById("explore-btn").onclick = function () {
+            window.location.href = "portfolio.html";
+        }
+document.getElementById("portfolio-btn").onclick = function () {
+            window.location.href = "portfolio.html";
+        }
+document.getElementById("contact-btn").onclick = function () {
+            window.location.href = "contact.html";
+        }
+document.getElementById("about-btn").onclick = function () {
+            window.location.href = "about.html";
+        }
+
+    </script>
     </body>
    
 </html>

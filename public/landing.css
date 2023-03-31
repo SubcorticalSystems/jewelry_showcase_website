@@ -53,16 +53,16 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 25rem;
+  height: 30rem;
 }
 
 .showcase h1 {
-  font-size: 3.1rem;
+  font-size: 3.2rem;
   
 }
 
 .showcase p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 .explore-btn {
   font-size: 1.4rem;
